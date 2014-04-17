@@ -6,11 +6,14 @@ Collection of Mac style widgets written in Java
 
 ##What are "Mac Widgets for Java"?
 
-Mac Widgets for Java are a collection of widgets seen in OS X applications, offered in a Java API. These widgets help Java developers create more Mac-like applications. Their usage is not restricted to Mac though, as they will render across platforms.
+Mac Widgets for Java is a collection of widgets seen in OS X applications, offered through a Java API. These widgets help Java developers create Mac themed applications. Their usage is not restricted to Mac though, as they will render across platforms.
 
 ##Guiding Design Principle
 
-Mac Widgets for Java have been designed as components - so you won't see much inheritance. Component style designs help make the API simple and understandable. This stye of design also makes it easy for developers to use the components as they were intended to be used.
+Macwidgets has been designed as components - so you won't see much inheritance. Component style designs help make the API simple and understandable. This stye of design also makes it easy for developers to use the components as they were intended to be used.
+
+##Screenshot
+![Mac Theme Screenshot](http://jtwalraven.github.io/assets/images/2013-05-29/JavaMacTheming5.png)
 
 ##License
     macwidgets - Collection of Mac style widgets written in Java
