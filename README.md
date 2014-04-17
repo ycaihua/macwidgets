@@ -20,9 +20,9 @@ Macwidgets has been designed as components - so you won't see much inheritance. 
 
 To use in Gradle or Maven simply add `com.jtechdev:macwidgets:1.0.1` as a dependency.
 
-* ![Examples](https://github.com/JTWalraven/macwidgets/wiki/Examples)
-* ![Tutorial](http://jtwalraven.github.io/2013/05/29/style-java-application-for-mac-os-x/)
-* ![JavaDoc](http://jtwalraven.github.io/macwidgets/javadoc/)
+* [Examples](https://github.com/JTWalraven/macwidgets/wiki/Examples)
+* [Tutorial](http://jtwalraven.github.io/2013/05/29/style-java-application-for-mac-os-x/)
+* [JavaDoc](http://jtwalraven.github.io/macwidgets/javadoc/)
 
 ##License
     macwidgets - Collection of Mac style widgets written in Java
