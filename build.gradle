@@ -1,22 +1,25 @@
 apply plugin: 'java'
-apply plugin: 'maven'
 
 version = "1.0.1"
 group = "com.jtechdev"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.gradle.api.plugins:gradle-nexus-plugin:0.7'
+    }
+}
 
 repositories {
     mavenCentral()
 }
 
+apply from: 'gradle/publish.gradle'
+
 dependencies {
     compile "com.jgoodies:forms:1.2.1"
     compile "com.jgoodies:looks:2.1.4"
-}
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: "file:///Users/JeffreyWalraven/Documents/ProgrammingProjects/maven-repo.git/")
-        }
-    }
 }

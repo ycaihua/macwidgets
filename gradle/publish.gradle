@@ -1,0 +1,41 @@
+apply plugin: 'nexus'
+
+modifyPom {
+    project {
+        name 'macwidgets'
+        description 'A collection of Mac style widgets written in Java.'
+        url 'https://github.com/JTWalraven/macwidgets'
+        packaging 'jar'
+        organization {
+            name 'JTechDev'
+            url 'http://www.jtechdev.com'
+        }
+        licenses {
+            license {
+                name 'GPL License'
+                url 'http://opensource.org/licenses/GPL-3.0'
+                distribution 'repo'
+            }
+        }
+        scm {
+            url 'https://github.com/JTWalraven/macwidgets.git'
+            connection 'scm:git:https://github.com/JTWalraven/macwidgets.git'
+            developerConnection 'scm:git@github.com:JTWalraven/macwidgets.git'
+        }
+        developers {
+            developer {
+                id 'jtwalraven'
+                name 'Jeffrey Walraven'
+            }
+        }
+    }
+}
+
+nexus {
+    attachJavadoc = true
+    attachSources = true
+    attachTests = true
+    sign = true
+    repositoryUrl = 'https://oss.sonatype.org/service/local/staging/deploy/maven2'
+    snapshotRepositoryUrl = 'https://oss.sonatype.org/content/repositories/snapshots'
+}
