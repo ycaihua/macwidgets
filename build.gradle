@@ -1,6 +1,8 @@
 apply plugin: 'java'
+apply plugin: 'maven'
 
-version = "1.0.0"
+version = "1.0.1"
+group = "com.jtechdev"
 
 repositories {
     mavenCentral()
@@ -9,4 +11,12 @@ repositories {
 dependencies {
     compile "com.jgoodies:forms:1.2.1"
     compile "com.jgoodies:looks:2.1.4"
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file:///Users/JeffreyWalraven/Documents/ProgrammingProjects/maven-repo.git/")
+        }
+    }
 }
