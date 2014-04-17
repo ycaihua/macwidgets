@@ -16,6 +16,14 @@ Macwidgets has been designed as components - so you won't see much inheritance. 
 ##Screenshot
 ![Mac Theme Screenshot](http://jtwalraven.github.io/assets/images/2013-05-29/JavaMacTheming5.png)
 
+##How to use
+
+To use in Gradle or Maven simply add `com.jtechdev:macwidgets:1.0.1` as a dependency.
+
+* ![Examples](https://github.com/JTWalraven/macwidgets/wiki/Examples)
+* ![Tutorial](http://jtwalraven.github.io/2013/05/29/style-java-application-for-mac-os-x/)
+* ![JavaDoc](http://jtwalraven.github.io/macwidgets/javadoc/)
+
 ##License
     macwidgets - Collection of Mac style widgets written in Java
     Copyright (C) 2014 Jeffrey Walraven
