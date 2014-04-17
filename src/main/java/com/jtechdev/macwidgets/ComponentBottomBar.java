@@ -24,7 +24,7 @@ public class ComponentBottomBar extends TriAreaComponent {
 
     protected static final ImageIcon SPLITTER_HANDLE =
             new ImageIcon(SourceListControlBar.class.getResource(
-                    "/com.jtechdev/macwidgets/images/splitter_handle.png"));
+                    "/com/jtechdev/macwidgets/images/splitter_handle.png"));
 
     protected JSplitPane fSplitPane;
 

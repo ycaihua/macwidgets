@@ -19,60 +19,60 @@ public class IAppScrollBarArtworkUtils {
     /* iApp vertical scroll bar image locations. */
 
     private static final String V_SCROLLER_CAP =
-            "/com.jtechdev/macwidgets/images/v_scroller_top_cap.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_top_cap.png";
 
     private static final String V_TRACK =
-            "/com.jtechdev/macwidgets/images/v_scroller_track.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_track.png";
 
     private static final String V_SCROLLER_TOGETHER_DECREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/v_scroller_together_decrement_button.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_together_decrement_button.png";
 
     private static final String V_SCROLLER_TOGETHER_INCREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/v_scroller_together_increment_button.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_together_increment_button.png";
 
     private static final String V_SCROLLER_SEPARATE_DECREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/v_scroller_separate_decrement_button.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_separate_decrement_button.png";
 
     private static final String V_SCROLLER_SEPARATE_INCREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/v_scroller_separate_increment_button.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_separate_increment_button.png";
 
     private static final String V_SCROLLERS =
-            "/com.jtechdev/macwidgets/images/v_scroller.png";
+            "/com/jtechdev/macwidgets/images/v_scroller.png";
 
     private static final String V_TOP_BUTTON_MASK =
-            "/com.jtechdev/macwidgets/images/v_scroller_mask_top.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_mask_top.png";
 
     private static final String V_BOTTOM_BUTTON_MASK =
-            "/com.jtechdev/macwidgets/images/v_scroller_mask_bottom.png";
+            "/com/jtechdev/macwidgets/images/v_scroller_mask_bottom.png";
 
     /* iApp horizontal scroll bar image locations. */
 
     private static final String H_SCROLLER_CAP =
-            "/com.jtechdev/macwidgets/images/h_scroller_left_cap.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_left_cap.png";
 
     private static final String H_TRACK =
-            "/com.jtechdev/macwidgets/images/h_scroller_track.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_track.png";
 
     private static final String H_SCROLLER_TOGETHER_DECREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/h_scroller_together_decrement_button.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_together_decrement_button.png";
 
     private static final String H_SCROLLER_TOGETHER_INCREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/h_scroller_together_increment_button.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_together_increment_button.png";
 
     private static final String H_SCROLLER_SEPARATE_DECREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/h_scroller_separate_decrement_button.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_separate_decrement_button.png";
 
     private static final String H_SCROLLER_SEPARATE_INCREMENT_BUTTONS =
-            "/com.jtechdev/macwidgets/images/h_scroller_separate_increment_button.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_separate_increment_button.png";
 
     private static final String H_SCROLLERS =
-            "/com.jtechdev/macwidgets/images/h_scroller.png";
+            "/com/jtechdev/macwidgets/images/h_scroller.png";
 
     private static final String H_LEFT_BUTTON_MASK =
-            "/com.jtechdev/macwidgets/images/h_scroller_mask_left.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_mask_left.png";
 
     private static final String H_RIGHT_BUTTON_MASK =
-            "/com.jtechdev/macwidgets/images/h_scroller_mask_right.png";
+            "/com/jtechdev/macwidgets/images/h_scroller_mask_right.png";
 
     // iApp vertical scroll bar support methods. //////////////////////////////////////////////////
 

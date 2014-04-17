@@ -45,7 +45,7 @@ public class MacButtonFactory {
 
     private static URL GRADIENT_BACKGROUND_URL =
             ComponentBottomBar.class.getResource(
-                    "/com.jtechdev/macwidgets/images/component_status_bar_shiny_background_no_border.png");
+                    "/com/jtechdev/macwidgets/images/component_status_bar_shiny_background_no_border.png");
 
     static final ImagePainter GRADIENT_BUTTON_IMAGE_PAINTER =
             new ImagePainter(GRADIENT_BACKGROUND_URL);

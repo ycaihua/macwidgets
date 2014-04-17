@@ -35,23 +35,23 @@ public class RatingComponent {
 
     private static ImageIcon FOCUSED_SELECTED_STAR =
             new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                    "/com.jtechdev/macwidgets/images/itunes_star_focused_selected.png"));
+                    "/com/jtechdev/macwidgets/images/itunes_star_focused_selected.png"));
 
     private static ImageIcon UNFOCUSED_SELECTED_STAR =
             new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                    "/com.jtechdev/macwidgets/images/itunes_star_unfocused_selected.png"));
+                    "/com/jtechdev/macwidgets/images/itunes_star_unfocused_selected.png"));
 
     private static ImageIcon UNSELECTED_STAR =
             new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                    "/com.jtechdev/macwidgets/images/itunes_star_unselected.png"));
+                    "/com/jtechdev/macwidgets/images/itunes_star_unselected.png"));
 
     private static ImageIcon UNFOCUSED_DOT =
             new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                    "/com.jtechdev/macwidgets/images/itunes_dot_unfocused.png"));
+                    "/com/jtechdev/macwidgets/images/itunes_dot_unfocused.png"));
 
     private static ImageIcon FOCUSED_DOT =
             new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                    "/com.jtechdev/macwidgets/images/itunes_dot_focused.png"));
+                    "/com/jtechdev/macwidgets/images/itunes_dot_focused.png"));
 
     public RatingComponent(Rating rating) {
         setRating(rating);

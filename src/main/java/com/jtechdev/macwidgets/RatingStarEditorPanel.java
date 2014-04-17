@@ -117,7 +117,7 @@ public class RatingStarEditorPanel
 
         Graphics2D g2 = ((Graphics2D) g);
         Image star = new ImageIcon(ITunesRatingTableCellRenderer.class.getResource(
-                "/com.jtechdev/macwidgets/images/itunes_star_unselected.png")).getImage();
+                "/com/jtechdev/macwidgets/images/itunes_star_unselected.png")).getImage();
 
         int level = getLevel();
 

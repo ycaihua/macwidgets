@@ -29,7 +29,7 @@ public class PopupButton<E> {
 
 	private static final ImageIcon ARROWS_ICON = new ImageIcon(
 			PopupButton.class
-					.getResource("/com.jtechdev/macwidgets/images/up_down_arrows_small.png"));
+					.getResource("/com/jtechdev/macwidgets/images/up_down_arrows_small.png"));
 
 	private JButton fButton = new CustomJButton();
 

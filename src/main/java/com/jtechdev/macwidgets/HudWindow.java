@@ -212,15 +212,15 @@ public class HudWindow {
 
         private static final Icon CLOSE_ICON = new ImageIcon(
                 TitlePanel.class.getResource(
-                        "/com.jtechdev/macwidgets/images/close.png"));
+                        "/com/jtechdev/macwidgets/images/close.png"));
 
         private static final Icon CLOSE_HOVER_ICON = new ImageIcon(
                 TitlePanel.class.getResource(
-                        "/com.jtechdev/macwidgets/images/close_hover.png"));
+                        "/com/jtechdev/macwidgets/images/close_hover.png"));
 
         private static final Icon CLOSE_PRESSED_ICON = new ImageIcon(
                 TitlePanel.class.getResource(
-                        "/com.jtechdev/macwidgets/images/close_pressed.png"));
+                        "/com/jtechdev/macwidgets/images/close_pressed.png"));
 
         private final JButton fCloseButton = new JButton(CLOSE_ICON);
 
@@ -374,7 +374,7 @@ public class HudWindow {
 
         private static final Icon RESIZE_ICON = new ImageIcon(
                 TitlePanel.class.getResource(
-                        "/com.jtechdev/macwidgets/images/resize_corner_dark.png"));
+                        "/com/jtechdev/macwidgets/images/resize_corner_dark.png"));
 
         private final Window fWindow;
         private final JLabel fResizeCorner = new JLabel(RESIZE_ICON);

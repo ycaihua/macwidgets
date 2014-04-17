@@ -94,7 +94,7 @@ public class IAppWidgetFactory {
      */
     public static JComponent createScrollPaneCorner() {
         return new ImageBasedJComponent(new ImageIcon(IAppWidgetFactory.class.getResource(
-                "/com.jtechdev/macwidgets/images/iapp_scrollpane_corner.png")).getImage());
+                "/com/jtechdev/macwidgets/images/iapp_scrollpane_corner.png")).getImage());
     }
     
     /**
@@ -104,6 +104,6 @@ public class IAppWidgetFactory {
      */
     public static JComponent createScrollPaneCornerLowerLeft() {
         return new ImageBasedJComponent(new ImageIcon(IAppWidgetFactory.class.getResource(
-                "/com.jtechdev/macwidgets/images/iapp_scrollpane_corner_left.png")).getImage());
+                "/com/jtechdev/macwidgets/images/iapp_scrollpane_corner_left.png")).getImage());
     }
 }

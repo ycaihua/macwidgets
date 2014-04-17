@@ -40,11 +40,11 @@ public class SourceListDarkColorScheme implements SourceListColorScheme {
 
     private static final Icon COLLAPSED_ICON = new ImageIcon(
             SourceList.class.getResource(
-                    "/com.jtechdev/macwidgets/images/source_list_white_right_arrow.png"));
+                    "/com/jtechdev/macwidgets/images/source_list_white_right_arrow.png"));
 
     private static final Icon EXPANDED_ICON = new ImageIcon(
             SourceList.class.getResource(
-                    "/com.jtechdev/macwidgets/images/source_list_white_down_arrow.png"));
+                    "/com/jtechdev/macwidgets/images/source_list_white_down_arrow.png"));
 
     public MacWidgetsPainter<Component> getActiveFocusedSelectedItemPainter() {
         return ACTIVE_FOCUSED_SELECTION_PAINTER;
