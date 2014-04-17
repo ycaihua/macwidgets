@@ -1,9 +1,13 @@
 language: java
 jdk:
-    - oraclejdk7
-    - openjdk7
+- oraclejdk7
+- openjdk7
 install:
-    - TERM=dumb ./gradlew assemble
-
+- TERM=dumb ./gradlew assemble
 script:
-    - TERM=dumb ./gradlew check
+- TERM=dumb ./gradlew check
+env:
+  global:
+    secure: X5nAQiSJSlTVDd4i5uZCc9R1tYA9hqdZMwh/VnIqXSntbxsRMA9pQzqc4TgIQ6xONoEQG+s/LvFQ73Rwvk7uUnekBd/scL1/ij+iY+gvgL5jekhq4/NpFkfO2QSNWgVdlMqRLxVOym+vUsh67hSXVZEWbZd/9uP6df1OTPEyU0M=
+after_success:
+- .utility/push-javadoc-to-gh-pages.sh
