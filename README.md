@@ -1,4 +1,5 @@
 #macwidgets
+[![Build Status](https://travis-ci.org/JTWalraven/macwidgets.svg?branch=master)](https://travis-ci.org/JTWalraven/macwidgets)
 
 (A fork of macwidgets on GoogleCode: https://code.google.com/p/macwidgets/)
 
